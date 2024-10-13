@@ -5,9 +5,13 @@ import {
     web,
     javascript,
     typescript,
+    Samagra,
     html,
     css,
     c4gt,
+    Freelancer,
+    pageup,
+    bluestock,
     reactjs,
     blog,
     redux,
@@ -17,18 +21,12 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    coming,
     firebase,
     AngularJs,
-    tripguide,
     threejs,
-    ecommerce
+    ecommerce,
+    EmployeeManagement,
+    restaruntWeb
   } from "../assets";
   
   export const navLinks = [
@@ -52,15 +50,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "UI/UX",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Backend Developer",
       icon: creator,
     },
   ];
@@ -142,19 +140,57 @@ import {
         "Participating in code reviews and working on constructive feedback by mentor.",
       ],
     },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    {
+      title: "Open Source Contributor",
+      company_name: "Samagra",
+      icon: Samagra,
+      iconBg: "#E6DEDD",
+      date: "Oct 2023 - Jan 2024",
+      points: [
+        "Contributed to the QuML Player project, adding new question types and enhancing user experience." ,
+        "Worked with AngularJS, Angular CLI, and TypeScript.",
+        "Implementing responsive design and ensuring ",
+        "Participating in code reviews and working on constructive feedback by mentor."
+      ],
+    },
+    {
+      title: "Freelancer",
+      company_name: "Restraunt Chain",
+      icon: Freelancer,
+      iconBg: "#E6DEDD",
+      date: "Feb 2024 - Apr 2024",
+      points: [
+        "Created a responsive website with menu display, order tracking, and payment integration.", 
+        "Used ReactJS, Tailwind for frontend, and Node.js, MongoDB for backend."
+
+      ],
+    },
+    {
+      title: "SDE Intern",
+      company_name: "BlueStock Fintech",
+      icon: bluestock,
+      iconBg: "#E6DEDD",
+      date: "July 2024 - Sep 2024",
+      points: [
+        "Developed frontend for a stock market information platform using HTML, CSS, and JS.", 
+        "Backend builds by using Django and Python, and managed PostgreSQL database.",
+        "Created efficient, reusable components, reducing development time by 15%"
+      ],
+    },
+    {
+      title: "SDE Intern",
+      company_name: "PageUp",
+      icon: pageup,
+      iconBg: "#E6DEDD",
+      date: "July 2024 - Present",
+      points: [
+        "Contributed to employee management project using Angular and API integrations.",
+"Analysed and improved database access times, optimizing API calls for better performance and efficiency in employee ",
+"data management.",
+"Learned product management and software development lifecycle.",
+"Collaborated with cross-functional teams to implement features and resolve technical issues."
+      ],
+    },
 
   ];
   
@@ -205,7 +241,7 @@ import {
         },
       ],
       image: ecommerce,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Yashig23",
     },
     {
       name: "Blog Web App",
@@ -226,20 +262,53 @@ import {
         },
       ],
       image: blog,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Yashig23",
     },
     {
-      name: "Projects",
+      name: "Employee Management",
       description:
-        " Coming Soon ...",
+        "Azure-inspired platform for employee, department, project, and task management with role-based access. Built using Angular CLI and APIs. ",
       tags: [
         {
-          name: "",
-          color: "",
+          name: "angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "angular cli",
+          color: "green-text-gradient",
+        },
+        {
+          name: "angular material",
+          color: "pink-text-gradient",
+        },
+        {
+          name: ".Net",
+          color: "blue-text-gradient",
         }
       ],
-      image: coming,
-      source_code_link: "",
+      image: EmployeeManagement,
+      source_code_link: "https://github.com/Yashig23",
+    },
+    {
+      name: "Restraunt Web App",
+      description:
+        ": Fully responsive online restaurant platform with authentication, payment gateway, and order tracking. Tech stack: ReactJS, Tailwind, Node.js, MongoDB, Firebase.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NodeJs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: restaruntWeb,
+      source_code_link: "https://github.com/Yashig23",
     },
   ];
   

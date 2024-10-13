@@ -23,10 +23,6 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import c4gt from './company/c4gt.png';
 
 import carrent from "./carrent.png";
@@ -35,6 +31,13 @@ import blog from './blog.png'
 import coming from './coming.jpg'
 import ecommerce from './ecommerce.png'
 import tripguide from "./tripguide.png";
+import bluestock from "./company/bluestock.png";
+import Freelancer from "./company/Freelancer.png";
+import pageup from "./company/pageup.png";
+import Samagra from "./company/Samagra.png";
+import EmployeeManagement from "./tech/EmployeeManagement.png";
+import restaruntWeb from "./tech/restaruntWeb.png"
+
 
 export {
   logo1,
@@ -42,8 +45,10 @@ export {
   creator,
   mobile,
   web,
+  Samagra,
   github,
   menu,
+  pageup,
   close,
   css,
   docker,
@@ -54,19 +59,19 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  bluestock,
+  Freelancer,
   redux,
   blog,
   coming,
+  EmployeeManagement,
+  restaruntWeb,
   firebase,
   AngularJs,
   tailwind,
   typescript,
   threejs,
-  meta,
   ecommerce,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   c4gt,
